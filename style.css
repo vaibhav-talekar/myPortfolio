@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    color: #e0e0e0; /* Light text color for readability */
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #000; /* Black background for header */
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+	
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+	
+}
+
+.profile-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00E5FF; /* Light Neon Blue border around profile image */
+    box-shadow: 0 0 15px 4px rgba(0, 229, 255, 0.8); /* Light Neon Blue shadow effect */
+}
+
+.profile-right {
+    flex: 2;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.profile-right h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #00E5FF; /* Light Neon Blue for name */
+}
+
+.profile-right p {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #66F2FF; /* Lighter Neon Blue for job title */
+}
+
+.profile-right h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #00E5FF; /* Light Neon Blue for headings */
+}
+
+.profile-right p {
+    font-size: 1.2em;
+    color: #b0b0b0; /* Lighter gray for the text */
+}
+
+.section {
+    padding: 40px 0;
+    border-bottom: 2px solid #333;
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #00E5FF; /* Light Neon Blue for section headings */
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ul li h3 {
+    font-size: 1.5em;
+    color: #00E5FF; /* Light Neon Blue for project titles */
+}
+
+ul li p {
+    font-size: 1em;
+    color: #b0b0b0; /* Light gray for description text */
+}
+
+ul li a {
+    color: #00E5FF; /* Light Neon Blue for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+    color: #66F2FF; /* Lighter Neon Blue on hover for links */
+}
+
+footer {
+    background: #000/* Black footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 1em;
+}
+
